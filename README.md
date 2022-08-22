@@ -14,7 +14,7 @@ If time permits, we want to use sentiment analysis to try and determine a correl
 
 Yahoo Finance: contains the latest market data on AAPL’s stock price of the last 1 year (yfinance library). Kaggle
 
-## Questions they hope to answer with the data
+## Questions Data Set Will Answer
 
  + Can we use a machine learning model to identify patterns?
  + Can we use machine learning models to predict the behavior of stock prices?
