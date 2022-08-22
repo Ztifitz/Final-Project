@@ -4,15 +4,15 @@
 
 Prediction of AAPL stock’s value  
 
-## Reason they selected the topic
+## Reason Of Selected Topic
 
 By analyzing the stock market data and trends for the AAPL. Our machine learning model will predict the adjusted close price of these stocks. This will help companies, investment firms or even individuals to better understand market behavior and make data-driven decisions for investments and trades. The objective of this project is to, first, accurately predict the Adjusted Close values for historical data of a stock using linear regressions. We will then use other machine learning models for the same purpose, Random Forest Regressor and Short Long Term Memory are the models being considered. After that, we will compare the accuracy of the results for each model and determine what model works best for trying to predict AAPL’s stock variation. 
 
 If time permits, we want to use sentiment analysis to try and determine a correlation between stock price variations and conversations about the stock in social media. We want to leave the classification problem as an additional point in the study in the interest of viability of execution.
 
-## Description of the source of data
+## Description Of The Source Of Data
 
-Yahoo Finance: contains the latest market data on AAPL’s stock price of the last 1 year (yfinance library). Kaggle
+Yahoo Finance: contains the latest market data on AAPL’s stock price of the last 1 year (yfinance library). Additional datasets would be obtained from Kaggle.com.
 
 ## Questions Data Set Will Answer
 
