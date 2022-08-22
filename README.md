@@ -35,7 +35,7 @@ Yahoo Finance: contains the latest market data on AAPL’s stock price of the la
 
 For the database, we will be using the Yahoo Finance API to extract the stock data and we will calculate moving averages to use as reference for our prediction models. Since we are consulting the data from an API, we do not need to set up personal databases either in SQL or AWS. The Yahoo Finance API returns columns that will not be used in our machine learning models, this is why the following schema is considering only the ones relevant for our analysis.
 
-| **Entity Name of the field**| **Properties Description**              | **Data type** | 
+| **Entity - Name of the field**| **Properties - Description**              | **Data type** | 
 | ------------------------ | ----------------------------------- | --------- |
 | Date                     | Date on which the stock was traded  | DATE      | 
 | Adj_Close                | Adjusted close value of the stock   | FLOAT     | 
