@@ -1,6 +1,6 @@
 # :chart_with_upwards_trend: Final-Project :chart_with_upwards_trend:
 
-## Select Topic
+## Selected Topic
 
 Prediction of AAPL stock’s value  
 
