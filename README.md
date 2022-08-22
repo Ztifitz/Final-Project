@@ -21,7 +21,7 @@ Yahoo Finance: contains the latest market data on AAPL’s stock price of the la
  + Which machine learning model has better accuracy using the same dataset?
  + Are the results in the models enough information to make investment decisions?
 
- + EXTRA:How much do emotions on Twitter and news headlines affect a stock's price?
+ + EXTRA: How much do emotions on Twitter and news headlines affect a stock's price?
 
 ## Machine Learning Model
 
@@ -30,4 +30,32 @@ Yahoo Finance: contains the latest market data on AAPL’s stock price of the la
 | Simple linear regression | 80% train data 20% test data | Historical stock prices 10-day moving average | R squared: Mean Squared Error:  |
 | RandomForest Regressor   | 80% train data 20% test data | 10- day price prediction                      | R squared:  Mean Squared Error: |
 | LSTM                     | 80% train data 20% test data | 10-day moving average epochs: 3               | Mean Squared Error:             |       
+
+## Database Integration
+
+For the database, we will be using the Yahoo Finance API to extract the stock data and we will calculate moving averages to use as reference for our prediction models. Since we are consulting the data from an API, we do not need to set up personal databases either in SQL or AWS. The Yahoo Finance API returns columns that will not be used in our machine learning models, this is why the following schema is considering only the ones relevant for our analysis.
+
+| Entity Name of the field | Properties Description              | Data type | 
+| ------------------------ | ----------------------------------- | --------- |
+| Date                     | Date on which the stock was traded  | DATE      | 
+| Adj_Close                | Adjusted close value of the stock   | FLOAT     | 
+| Mv_Avg                   | Moving average for the last 10 days | FLOAT     |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
