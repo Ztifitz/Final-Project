@@ -39,7 +39,7 @@ For the database, we will be using the Yahoo Finance API to extract the stock da
 | ------------------------ | ----------------------------------- | --------- |
 | Date                     | Date on which the stock was traded  | DATE      | 
 | Adj_Close                | Adjusted close value of the stock   | FLOAT     | 
-| Mv_Avg                   | Moving average for the last 10 days | FLOAT     |
+| EMMA_10                  | Moving average for the last 10 days | FLOAT     |
 
 
 
