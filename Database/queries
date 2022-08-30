@@ -1,0 +1,63 @@
+-- Creating table for AAPL's stock values
+
+CREATE TABLE AAPL (
+     Date DATE, -- this should be in the formate yyyy-mm-dd
+     Open FLOAT NOT NULL,
+     High FLOAT NOT NULL,
+     Low FLOAT NOT NULL,
+     Close FLOAT NOT NULL,
+	 Adj_Close FLOAT NOT NULL,
+     Volume INT NOT NULL,
+	PRIMARY KEY (Date)
+);
+
+
+SELECT * FROM AAPL ;
+
+-- Creating table for LSTM predictions
+
+CREATE TABLE LSTM_prediction(
+     Date DATE, -- this should be in the formate yyyy-mm-dd
+     LSTM_prediction FLOAT NOT NULL,
+	FOREIGN KEY (Date) REFERENCES AAPL (Date),
+	PRIMARY KEY (Date)
+);
+
+SELECT * FROM LSTM_prediction;
+
+-- Creating table for linear regression predictions
+
+CREATE TABLE linear_prediction(
+     Date DATE, -- this should be in the formate yyyy-mm-dd
+     linear_prediction FLOAT NOT NULL,
+	FOREIGN KEY (Date) REFERENCES AAPL (Date),
+	PRIMARY KEY (Date)
+);
+
+SELECT * FROM linear_prediction;
+
+-- Creating table for ALL predictions
+
+CREATE TABLE predictions_results(
+     Date DATE, -- this should be in the formate yyyy-mm-dd
+     Open FLOAT NOT NULL,
+     High FLOAT NOT NULL,
+     Low FLOAT NOT NULL,
+     Close FLOAT NOT NULL,
+	 Adj_Close FLOAT NOT NULL,
+     Volume INT NOT NULL,
+	FOREIGN KEY (Date) REFERENCES AAPL (Date),
+	PRIMARY KEY (Date)
+);
+
+-- Joining predictions 
+
+SELECT LSTM_prediction.Date,
+LSTM_prediction.LSTM_prediction,
+linear_prediction.linear_prediction
+INTO results
+FROM LSTM_prediction
+LEFT JOIN linear_prediction
+ON LSTM_prediction.Date = linear_prediction.Date;
+
+SELECT * FROM results;
