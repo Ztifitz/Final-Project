@@ -1,0 +1,39 @@
+AAPL_DATA
+-
+Date date pk
+Open int
+High int
+Low int
+Close int
+Adj_Close int
+Volume int
+
+AAPL_LINEAR_REGRESSION
+-
+Date date fk >- AAPL_DATA.Date
+Predictions int
+
+
+AAPL_RANDOM_FOREST
+-
+Date date fk >- AAPL_DATA.Date
+Predictions int
+
+
+
+AAPL_LSTM
+-
+Date date fk >- AAPL_DATA.Date
+Predictions int
+
+
+
+
+
+
+
+
+
+
+
+

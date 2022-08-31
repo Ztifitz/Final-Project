@@ -4,11 +4,12 @@
 
 ### Presentation
 
-We have set up our presentation here:
-https://docs.google.com/presentation/d/15q5HLx494RaGAU1JQ_ZHuZIJJWDQfa9InAoG0i-CS7E/edit#slide=id.gbb0906d0eb_0_1716
+
+We have set up our presentation here: [Google Slides](https://docs.google.com/presentation/d/15q5HLx494RaGAU1JQ_ZHuZIJJWDQfa9InAoG0i-CS7E/edit#slide=id.gbb0906d0eb_0_1716)
 
 All of the images added to this README are part of the presentation.
 
+---
 ### Machine Learning Models
 
 The models decided upon were the Random Forest Regressor, Linear Regressionand Long Short Term Memory to try and predict AAPL's stock price. 
@@ -16,11 +17,16 @@ The models decided upon were the Random Forest Regressor, Linear Regressionand L
 ![image](https://user-images.githubusercontent.com/101848882/187092059-bd976a2f-0f13-43ce-b00c-652b2c2304c7.png)
 
 
+---
 ### Database
 
-The database was built using the data extracted from Yahoo Finance and new table containing the prediction values for each model was added, with our key columns being the dates for each. All of the data was saved un a PostgreSQL databas for easy access and consultation.
+We will be using PostgreSQL and also hosting our data in an AWS S3 bucket. The database was built using the data extracted from Yahoo Finance and new tables were made containing the prediction values for each model. Our primary and foreign key is the Date column and we used it to make a join with the prediction results. All of the data was saved in a PostgreSQL database and AWS for easy access and consultation. 
+
+The image below represents the tables of data and how they are uploaded into the database:
 
 ![image](https://user-images.githubusercontent.com/101848882/187091656-ed5e5139-bd4f-4a8e-adb4-fca924a6f27f.png)
+
+---
 
 ### Dashboard
 
@@ -35,6 +41,9 @@ This way the user would be able to determine by (him/her)self on which model the
 Javascript will be used to graph the results of out model and we will use html to build a web page for simplicity of the user. We will still have to use python to host the local server.
 
 ![image](https://user-images.githubusercontent.com/101848882/187092035-44ceb693-cb09-4559-9afd-7d7fc27870bb.png)
+
+
+---
 
 ## First Delivery
 
@@ -78,6 +87,40 @@ For the database, we will be using the Yahoo Finance API to extract the stock da
 | Date                     | Date on which the stock was traded  | DATE      | 
 | Adj_Close                | Adjusted close value of the stock   | FLOAT     | 
 | EMMA_10                  | Moving average for the last 10 days | FLOAT     |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
