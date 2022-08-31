@@ -4,6 +4,7 @@
 
 ### Presentation
 
+
 We have set up our presentation here: [Google Slides](https://docs.google.com/presentation/d/15q5HLx494RaGAU1JQ_ZHuZIJJWDQfa9InAoG0i-CS7E/edit#slide=id.gbb0906d0eb_0_1716)
 
 All of the images added to this README are part of the presentation.
@@ -15,6 +16,7 @@ The models decided upon were the Random Forest Regressor, Linear Regressionand L
 
 ![image](https://user-images.githubusercontent.com/101848882/187092059-bd976a2f-0f13-43ce-b00c-652b2c2304c7.png)
 
+
 ---
 ### Database
 
@@ -25,6 +27,7 @@ The image below represents the tables of data and how they are uploaded into the
 ![image](https://user-images.githubusercontent.com/101848882/187091656-ed5e5139-bd4f-4a8e-adb4-fca924a6f27f.png)
 
 ---
+
 ### Dashboard
 
 The dashboard will have a summary of our project. The user will be able to choose which machine learning model to use to predict AAPL’s stock price and then will get the result.
@@ -39,7 +42,9 @@ Javascript will be used to graph the results of out model and we will use html t
 
 ![image](https://user-images.githubusercontent.com/101848882/187092035-44ceb693-cb09-4559-9afd-7d7fc27870bb.png)
 
+
 ---
+
 ## First Delivery
 
 ### Selected Topic
@@ -82,6 +87,7 @@ For the database, we will be using the Yahoo Finance API to extract the stock da
 | Date                     | Date on which the stock was traded  | DATE      | 
 | Adj_Close                | Adjusted close value of the stock   | FLOAT     | 
 | EMMA_10                  | Moving average for the last 10 days | FLOAT     |
+
 
 
 
