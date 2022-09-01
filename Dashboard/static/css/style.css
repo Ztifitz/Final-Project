@@ -1,0 +1,19 @@
+body {
+      color: #000000; 
+      background-color: silver;
+      background-image: url("../images/bg_logo.jpg");
+      background-size: cover;
+  }
+
+
+
+  .jumbotron {
+    background-image: url("../images/wsb.jpg");
+    background-size: cover;
+    width: 100%; /* make sure to define width to fill container */
+    height: 300px; /* define the height in pixels or make sure   */
+
+    max-width: 300px;
+    text-align: center;
+    
+  }
