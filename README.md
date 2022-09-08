@@ -21,6 +21,17 @@ All of the images added to this README are part of the presentation.
 
 
 ---
+### Technologies & Tools Used
+
+<img src="https://github.com/Ztifitz/Final-Project/blob/main/Images/pic_2.png" width="750" height="" />
+
+---
+### Data Exploration Phase
+
+<img src="https://github.com/Ztifitz/Final-Project/blob/main/Images/pic_3.png" width="750" height="" />
+
+
+---
 
 ### Selected Topic
 
@@ -52,7 +63,8 @@ We sourced data from Yahoo Finance, it contains the latest market data on AAPLâ€
 | RandomForest Regressor   | 70% train data 30% test data | 10- day price prediction                      | R squared:  Mean Squared Error: |
 | LSTM                     | 70% train data 30% test data | 10-day moving average epochs: 3               | Mean Squared Error:             |       
 
-![image](https://user-images.githubusercontent.com/101848882/187092059-bd976a2f-0f13-43ce-b00c-652b2c2304c7.png)
+<img src="https://github.com/Ztifitz/Final-Project/blob/main/Images/pic_7.png" width="750" height="" />
+<img src="https://github.com/Ztifitz/Final-Project/blob/main/Images/pic_8.png" width="750" height="" />
 
 ---
 
@@ -62,11 +74,11 @@ We will be using PostgreSQL and also hosting our data in an AWS S3 bucket. The d
 
 The image below represents the tables of data and how they are uploaded into the database:
 
-![image](https://user-images.githubusercontent.com/101848882/187091656-ed5e5139-bd4f-4a8e-adb4-fca924a6f27f.png)
+<img src="https://github.com/Ztifitz/Final-Project/blob/main/Images/pic_4.png" width="750" height="" />
 
 ---
 
-### Dashboard
+### Web Application Dashboard
 
 The dashboard will have a summary of our project. The user will be able to choose which machine learning model to use to predict AAPLâ€™s stock price and then will get the result.
 
@@ -74,11 +86,68 @@ The user will receive a small summary describing the accuracy of the model and a
 
 This way the user would be able to determine by (him/her)self on which model their probable investment decisions will be based. We attached a rudimentary sketch of what we want the dashboard to look like.
 
-![StocksDashboard](https://user-images.githubusercontent.com/101848882/187092001-5b28aea5-8907-45fd-b23c-f703a6241088.png)
-
 Javascript will be used to graph the results of out model and we will use html to build a web page for simplicity of the user. We will still have to use python to host the local server.
 
-![image](https://user-images.githubusercontent.com/101848882/187092035-44ceb693-cb09-4559-9afd-7d7fc27870bb.png)
+<img src="https://github.com/Ztifitz/Final-Project/blob/main/Images/pic_5.png" width="750" height="" />
+
+
+---
+
+### Tableau Dashboard
+
+**Interactive elements:** 
+
+The month, quarter and year will be selected from a drop down menu to change the graph.  
+
+**Other elements:**
+
+ + The remaining elements in the dashboard are static, but are designed to effectively showcase various skills we have learned throughout the course. 
+ + The graphs reflect information from our dataset, and allow the user to get a good overview about each model predictions.
+
+<img src="https://github.com/Ztifitz/Final-Project/blob/main/Images/pic_6.png" width="750" height="" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
