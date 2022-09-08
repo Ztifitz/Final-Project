@@ -14,7 +14,7 @@
 ### Presentation
 
 
- + We have set up our presentation here: [Google Slides](https://docs.google.com/presentation/d/15q5HLx494RaGAU1JQ_ZHuZIJJWDQfa9InAoG0i-CS7E/edit#slide=id.gbb0906d0eb_0_1716)
+ + We have set up our presentation here: [Google Slides](https://docs.google.com/presentation/d/e/2PACX-1vRh8W0nJG2R7vfK_lQrtiDU3RJ7Cx2uIOEKXQHoaLbOOgTcJqDK7RlZjdPDWJXT-g8xmPP9_J7VhGT0/pub?start=false&loop=false&delayms=3000)
  + We have set up our dashboard here: [Tableau Dashboard](https://public.tableau.com/app/profile/anna.rocha/viz/aapl_stock_predictions/final_project)
 
 All of the images added to this README are part of the presentation.
