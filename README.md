@@ -80,7 +80,7 @@ The image below represents the tables of data and how they are uploaded into the
 
 ### Web Application Dashboard
 
-The dashboard will have a summary of our project. The user will be able to choose which machine learning model to use to predict AAPL’s stock price and then will get the result.
+The web application dashboard will have a summary of our project. The user will be able to choose which machine learning model to use to predict AAPL’s stock price and then will get the result.
 
 The user will receive a small summary describing the accuracy of the model and a graph showing the predicted results. 
 
@@ -88,7 +88,7 @@ This way the user would be able to determine by (him/her)self on which model the
 
 Javascript will be used to graph the results of out model and we will use html to build a web page for simplicity of the user. We will still have to use python to host the local server.
 
-<img src="https://github.com/Ztifitz/Final-Project/blob/main/Images/pic_5.png" width="750" height="" />
+<img src="https://github.com/Ztifitz/Final-Project/blob/main/Images/pic_9.png" width="750" height="" />
 
 
 ---
@@ -97,7 +97,7 @@ Javascript will be used to graph the results of out model and we will use html t
 
 **Interactive elements:** 
 
-The month, quarter and year will be selected from a drop down menu to change the graph.  
+The month, quarter and year will be selected from a drop down menu to change the graph. Tableau dashboard can be found [here.](https://public.tableau.com/app/profile/anna.rocha/viz/aapl_stock_predictions/final_project) 
 
 **Other elements:**
 
@@ -105,6 +105,24 @@ The month, quarter and year will be selected from a drop down menu to change the
  + The graphs reflect information from our dataset, and allow the user to get a good overview about each model predictions.
 
 <img src="https://github.com/Ztifitz/Final-Project/blob/main/Images/pic_6.png" width="750" height="" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
