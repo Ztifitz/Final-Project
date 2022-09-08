@@ -14,7 +14,7 @@
 
   <div class="container">
     <div class="row">
-      <div class="col-md-12 text-center" style="background-image: url(static/images/bubble.jpg); background-size: cover; height: 275px;">
+      <div class="col-md-12 text-center" style="background-image: url(static/images/bubble.jpg); background-size: cover; height: 275px; opacity: .80;">
         <h2>So you want to trade like the best in the business?</h2>
         <h3>Why trust people on the Internet when you can trust machine learning models to decide your investments?</h3>
         <h4>Introducing: AAPL's stock price prediction models.</h4>
@@ -23,7 +23,7 @@
       </div>
       <div class="col-md-1 jumbotron"></div>
       <div class="col-md-8">
-        <div class="well">
+        <div class="well" style="opacity: .9;">
           <h1>Select your machine learning model:</h1>
           <!-- <select id="selDataset"></select> -->
           <select id="selDataset" onchange="optionChanged(this.value)"></select>
@@ -32,23 +32,16 @@
           <div class="panel-heading">
             <h3 class="panel-title text-center">Description of the model</h3>
           </div>
-          <div id="sample-metadata" class="panel-body"></div>
+          <div id="sample-metadata" class="panel-body" style="opacity: .9;"></div>
         </div>
       </div>
     </div>
     <div class="row">
       
-      <div class="col-md-5">
-        <div id="bar"></div>
-      </div>
-      <div class="col-md-5">
-        <div id="gauge"></div>
-      </div>
-    </div>
-    <div class="row">
       <div class="col-md-12">
-        <div id="bubble"></div>
+        <div id="bar" style="opacity: .9;"></div>
       </div>
+      
     </div>
   </div>
 
