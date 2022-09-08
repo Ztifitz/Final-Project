@@ -60,7 +60,7 @@ We sourced data from Yahoo Finance, it contains the latest market data on AAPLâ€
 | Model                    | Train and Test Sets          | Parameters                                    | Score Accuracy                  |
 | ------------------------ | ---------------------------- | --------------------------------------------- | ------------------------------- |
 | Simple linear regression | 70% train data 30% test data | Historical stock prices 10-day moving average | R squared: Mean Squared Error:  |
-| RandomForest Regressor   | 70% train data 30% test data | 10- day price prediction                      | R squared:  Mean Squared Error: |
+| RandomForest Regressor   | 70% train data 30% test data | Historical stock prices (251 days as input)   | R squared:  Mean Squared Error: |
 | LSTM                     | 70% train data 30% test data | 10-day moving average epochs: 3               | Mean Squared Error:             |       
 
 <img src="https://github.com/Ztifitz/Final-Project/blob/main/Images/pic_7.png" width="750" height="" />
