@@ -14,7 +14,8 @@
 ### Presentation
 
 
- + We have set up our presentation here: [Google Slides](https://docs.google.com/presentation/d/e/2PACX-1vRh8W0nJG2R7vfK_lQrtiDU3RJ7Cx2uIOEKXQHoaLbOOgTcJqDK7RlZjdPDWJXT-g8xmPP9_J7VhGT0/pub?start=false&loop=false&delayms=3000)
+ + We have set up our presentation here: [Google Slides_English](https://docs.google.com/presentation/d/e/2PACX-1vRh8W0nJG2R7vfK_lQrtiDU3RJ7Cx2uIOEKXQHoaLbOOgTcJqDK7RlZjdPDWJXT-g8xmPP9_J7VhGT0/pub?start=false&loop=false&delayms=3000)
+ + [Google_Slides_Spanish](https://docs.google.com/presentation/d/1tTUH5ISbMFYZbHM78w0JuR9lhCFNv62LMz7nPfwyQ64/edit#slide=id.gbb87ace34f_0_26477)
  + We have set up our dashboard here: [Tableau Dashboard](https://public.tableau.com/app/profile/anna.rocha/viz/aapl_stock_predictions/final_project)
 
 All of the images added to this README are part of the presentation.
